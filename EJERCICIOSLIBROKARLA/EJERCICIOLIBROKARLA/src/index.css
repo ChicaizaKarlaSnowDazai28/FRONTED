@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.navbar {
+  margin-bottom: 16px;
+}
+
+.navbar a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.lista-ejercicios {
+  list-style: none;
+  padding: 0;
+  columns: 1;
+}
+
+.lista-ejercicios li {
+  padding: 6px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.lista-ejercicios a {
+  color: #1e293b;
+  text-decoration: none;
+}
+
+.lista-ejercicios a:hover {
+  color: #4f46e5;
+  text-decoration: underline;
+}
+
+.ejercicio {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px 24px;
+}
+
+.ejercicio h2 {
+  margin-top: 0;
+  color: #4f46e5;
+}
+
+.ejercicio pre {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.ejercicio input,
+.ejercicio button {
+  font-size: 15px;
+  padding: 6px 10px;
+  margin: 4px 4px 4px 0;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+}
+
+.ejercicio button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.ejercicio button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
